@@ -73,30 +73,14 @@
         }
         
         .card-hover {
-            transition: all 0.0s ease;
+            transition: all 0.3s ease;
         }
-        html {
-  scroll-padding-top: 4.5rem; /* adjust if your header is taller */
-}
-
-         @media (prefers-color-scheme: dark) {
-        body {
+        @media (prefers-color-scheme: dark) {
+          body {
             background-color: white !important;
             color: black !important;
+          }
         }
-             #typing-name {
-              display: block;
-              min-height: 1.5em; /* Enough space for one line of text */
-              font-weight: bold;
-              font-size: 24px;
-          }
-             html {
-  scroll-padding-top: 5rem; /* same height as fixed header */
-}
-html {
-  scroll-behavior: auto;
-}
-
         
         .card-hover:hover {
             transform: translateY(-5px);
@@ -130,13 +114,8 @@ html {
         
         /* Smooth scrolling */
         html {
-            scroll-behavior: auto;
+            scroll-behavior: smooth;
         }
-             /* Add this to your CSS section */
-.hero-gradient {
-    animation: none !important;
-    transform: none !important;
-}
         
         /* Mobile responsiveness */
         @media (max-width: 768px) {
